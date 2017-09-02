@@ -6,6 +6,8 @@ dependencies:
   - components_combo_ui_patterns
   - field_layout
   - image
+  - options
+  - paragraphs
   - responsive_image
   - text
   - video_embed_field

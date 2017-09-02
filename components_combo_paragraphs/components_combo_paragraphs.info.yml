@@ -2,6 +2,7 @@ name: 'Components Combo: Paragraphs'
 type: module
 core: 8.x
 dependencies:
+  - components_combo_ui_patterns
   - config_update
   - entity_reference_revisions
   - features
@@ -10,6 +11,7 @@ dependencies:
   - file
   - image
   - layout_discovery
+  - options
   - paragraphs
   - text
   - video_embed_field
