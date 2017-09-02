@@ -1,0 +1,17 @@
+name: 'Components Combo: Paragraphs'
+type: module
+core: 8.x
+dependencies:
+  - config_update
+  - entity_reference_revisions
+  - features
+  - field
+  - field_layout
+  - file
+  - image
+  - layout_discovery
+  - paragraphs
+  - text
+  - video_embed_field
+version: 8.x-1.x
+package: 'Components Combo'
