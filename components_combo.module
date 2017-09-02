@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains components_combo.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function components_combo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the components_combo module.
+    case 'help.page.components_combo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A library of re-usable components and their acompanying features. Please see http://www.aleksip.net/using-ui-patterns-module-in-a-component-based-drupal-8-theme') . '</p>';
+      return $output;
+
+    default:
+  }
+}
